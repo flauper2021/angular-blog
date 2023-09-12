@@ -1,20 +1,19 @@
 <div class = "container__large-card">
 
   <div class = "large-card__photo">
-    <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/1*BMDyhp4RU0SQuG5FSCG4MA.png"
+    <img src="{{ photoCard }}"
     alt=""
     width="500px"
     height="250px">
   </div>
 
   <div class = "large-card__title">
-    <h1><a href = "#">Saiu a nova versão do Angular!</a></h1>
+    <h1><a href = "#">"{{ cardTitle }}"</a></h1>
   </div>
 
   <div class = "large-card__description">
     <p>
-      <a href="#"> Ipsum dolor sit amet, consectetur adipiscing elit. Nulla consequat gravida sapien eget elementum.
-      Praesent faucibus imperdiet augue, eget vestibulum felis placerat blandit. </a>
+      <a href="#"> "{{ cardDescription }}" </a>
     </p>
   </div>
 </div>
