@@ -1,0 +1,30 @@
+.container__content{
+  margin-top: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container__title{
+  padding:5px;
+  margin:5px;
+}
+
+.container__cover img{
+  border: 5px solid rgb(179, 175, 175);
+  border-radius: 5px;
+  width: 50vw;
+  min-width: 500px;
+  height: 300px;
+}
+
+container__description{
+
+}
+
+.container__description >p{
+  color: rgb(187, 184, 184);
+  margin: 15px;
+
+}
