@@ -8,6 +8,10 @@
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+index{
+  width: 90vw;
+}
+
 a {
   text-decoration: none;
 }

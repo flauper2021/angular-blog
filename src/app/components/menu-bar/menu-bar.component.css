@@ -1,5 +1,6 @@
 .container__menu-bar{
   margin: .7rem;
+  width: 100vw;
 }
 
 .container__menu-bar > ul{

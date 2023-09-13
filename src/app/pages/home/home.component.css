@@ -4,3 +4,8 @@
   flex-direction: row;
   justify-content: center;
 }
+
+.container__articles-separator{
+  margin: 1rem;
+  margin-bottom: 2rem;
+}

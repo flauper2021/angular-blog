@@ -26,4 +26,32 @@ export const dataFake = [
     "title": "Será que o Live Action de One Piece vai agradar os fãs?",
     "description": "A série live-action One Piece estreou na Netflix com audiência alta e ótimas avaliações da crítica. O show inspirado no mangá/anime de Eiichiro Oda é a primeira investida do gênero bem-sucedida pela plataforma, saindo-se melhor que produções semelhantes como Death Note e Cowboy Bebop."
   },
+
+  {
+    "id": "5",
+    "photoCard": "https://sm.ign.com/ign_br/game/s/starfield/starfield_23ps.jpg",
+    "title": "StarField será o jogo do ano?",
+    "description": "Starfield é um jogo eletrônico de RPG de ação e ficção desenvolvido pela Bethesda Game Studios, publicado pela Bethesda Softworks e distribuído pela Microsoft."
+  },
+
+  {
+    "id": "6",
+    "photoCard": "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
+    "title": "vazio",
+    "description": "vazio."
+  },
+
+  {
+    "id": "7",
+    "photoCard": "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
+    "title": "vazio",
+    "description": "vazio"
+  },
+
+  {
+    "id": "8",
+    "photoCard": "https://t3.ftcdn.net/jpg/02/48/42/64/360_F_248426448_NVKLywWqArG2ADUxDq6QprtIzsF82dMF.jpg",
+    "title": "vazio",
+    "description": "vazio."
+  },
 ]

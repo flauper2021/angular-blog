@@ -1,4 +1,6 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import {dataFake} from '../../data/dataFake';
 
 @Component({
   selector: 'app-large-card',
@@ -16,9 +18,17 @@ export class LargeCardComponent implements OnInit {
   @Input()
   cardDescription: string = ""
 
-  constructor() { }
+  private id: string | null ="0"
+
+  constructor(
+    private route: ActivatedRoute
+  ) { }
 
   ngOnInit(): void {
+
+    this.route.paramMap.subscribe( value =>
+      this.id = value.get("id"))
+
   }
 
 }
